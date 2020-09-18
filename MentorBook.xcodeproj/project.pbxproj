@@ -15,6 +15,10 @@
 		6863B73B2514D6EE006FA5E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6863B7392514D6EE006FA5E2 /* LaunchScreen.storyboard */; };
 		6863B7462514D6EE006FA5E2 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863B7452514D6EE006FA5E2 /* MentorBookTests.swift */; };
 		6863B7512514D6EE006FA5E2 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863B7502514D6EE006FA5E2 /* MentorBookUITests.swift */; };
+		6863B7652514D9CC006FA5E2 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6863B7622514D9CC006FA5E2 /* ryo.jpg */; };
+		6863B7662514D9CC006FA5E2 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6863B7632514D9CC006FA5E2 /* nagata.jpg */; };
+		6863B7672514D9CC006FA5E2 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6863B7642514D9CC006FA5E2 /* taithi.jpg */; };
+		6863B76C2514DE39006FA5E2 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863B76B2514DE39006FA5E2 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		6863B74C2514D6EE006FA5E2 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6863B7502514D6EE006FA5E2 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		6863B7522514D6EE006FA5E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6863B7622514D9CC006FA5E2 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		6863B7632514D9CC006FA5E2 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		6863B7642514D9CC006FA5E2 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		6863B76B2514DE39006FA5E2 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		6863B72D2514D6EB006FA5E2 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				6863B7612514D9CC006FA5E2 /* images */,
 				6863B72E2514D6EB006FA5E2 /* AppDelegate.swift */,
 				6863B7302514D6EB006FA5E2 /* SceneDelegate.swift */,
 				6863B7322514D6EB006FA5E2 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				6863B7372514D6EE006FA5E2 /* Assets.xcassets */,
 				6863B7392514D6EE006FA5E2 /* LaunchScreen.storyboard */,
 				6863B73C2514D6EE006FA5E2 /* Info.plist */,
+				6863B76B2514DE39006FA5E2 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				6863B7522514D6EE006FA5E2 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		6863B7612514D9CC006FA5E2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6863B7622514D9CC006FA5E2 /* ryo.jpg */,
+				6863B7632514D9CC006FA5E2 /* nagata.jpg */,
+				6863B7642514D9CC006FA5E2 /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6863B7672514D9CC006FA5E2 /* taithi.jpg in Resources */,
+				6863B7652514D9CC006FA5E2 /* ryo.jpg in Resources */,
+				6863B7662514D9CC006FA5E2 /* nagata.jpg in Resources */,
 				6863B73B2514D6EE006FA5E2 /* LaunchScreen.storyboard in Resources */,
 				6863B7382514D6EE006FA5E2 /* Assets.xcassets in Resources */,
 				6863B7362514D6EB006FA5E2 /* Main.storyboard in Resources */,
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6863B76C2514DE39006FA5E2 /* Mentor.swift in Sources */,
 				6863B7332514D6EB006FA5E2 /* ViewController.swift in Sources */,
 				6863B72F2514D6EB006FA5E2 /* AppDelegate.swift in Sources */,
 				6863B7312514D6EB006FA5E2 /* SceneDelegate.swift in Sources */,
